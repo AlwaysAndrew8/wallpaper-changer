@@ -1,13 +1,15 @@
 
 I use Hyprland, and this has not been tested on anything else. Probably works for Wayland stuff in general, unsure though.
 
-------------------------------------------------
+----------------------------------------------------------
 Prerequisites:
 - swww
 - pywal
 - (optional) pywalfox
 - (optional) pywalfox firefox extension
-------------------------------------------------
+
+- I use zsh and oh-my-zsh, there may be alternatives.
+----------------------------------------------------------
 
 Setup Guide
 
@@ -21,10 +23,10 @@ Step 4: Make sure to execute this on startup if you want it to change on startup
 
 If something isn't working, make sure all of the directories are going to the correct area, and that you're executing it on startup correctly.
 
-------------------------------------------------
+----------------------------------------------------------
 
 If you use dwm, instead of downloading this:
 
 There is a great video by BugsWriter called "Linux Ricing Crash Course (minimal, simple yet pretty rice for newbies)" where he does this with dwm. 29:24 is around where that part starts, and the complete code is at 33:18. This is basically that but for Hyprland (since as opposed to X11, Wayland is used. I use swww instead of xwallpaper, and had to clear the cache to get it to work).
 
--------------------------------------------------
+-----------------------------------------------------------
