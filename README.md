@@ -1,6 +1,12 @@
 
 I use Hyprland, and this has not been tested on anything else. Probably works for Wayland stuff in general, unsure though.
 
+Also includes a fix for the error:
+WARNING: socket file /run/user/1000/swww.socket was not deleted when the previous daemon exited
+Error: "Failed to receive answer: io error: Connection reset by peer (os error 104)"
+
+Automatically deletes swww's cache. Also kills and initializes swww.
+
 ----------------------------------------------------------
 Prerequisites:
 - swww
