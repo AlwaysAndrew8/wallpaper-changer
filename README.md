@@ -36,3 +36,7 @@ If you use dwm, instead of downloading this:
 There is a great video by BugsWriter called "Linux Ricing Crash Course (minimal, simple yet pretty rice for newbies)" where he does this with dwm. 29:24 is around where that part starts, and the complete code is at 33:18. This is basically that but for Hyprland (since as opposed to X11, Wayland is used. I use swww instead of xwallpaper, and had to clear the cache to get it to work).
 
 -----------------------------------------------------------
+Credits:
+bugswriter (video mentioned above)
+pywal
+swww
